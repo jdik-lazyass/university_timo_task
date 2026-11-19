@@ -35,7 +35,7 @@ def main():
 
     BASE_PATH.parent.mkdir(parents=True, exist_ok=True)
     base.to_csv(BASE_PATH, index=False)
-    print(f"Исходная часть: {len(base)} строк -> {BASE_PATH}")
+    print(f"Исходная часть: {len(base)} строк  {BASE_PATH}")
 
     INCOMING_DIR.mkdir(parents=True, exist_ok=True)
     batch_boundaries = pd.cut(range(len(remainder)), bins=N_BATCHES, labels=False)
@@ -43,7 +43,7 @@ def main():
         batch = remainder[batch_boundaries == i]
         batch_path = INCOMING_DIR / f"batch_{i + 1:02d}.csv"
         batch.to_csv(batch_path, index=False)
-        print(f"Порция {i + 1}: {len(batch)} строк -> {batch_path}")
+        print(f"Порция {i + 1}: {len(batch)} строк  {batch_path}")
 
 
 if __name__ == "__main__":
