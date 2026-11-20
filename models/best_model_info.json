@@ -1,0 +1,20 @@
+{
+    "model_name": "Ridge",
+    "target": "Critic_Score",
+    "features": [
+        "Platform",
+        "Year_of_Release",
+        "Genre",
+        "Publisher",
+        "Developer",
+        "Rating"
+    ],
+    "group_column": "Name",
+    "cv": "GroupKFold",
+    "n_splits": 5,
+    "random_state": 42,
+    "selection_metric": "MAE",
+    "MAE_mean": 9.420238842408475,
+    "RMSE_mean": 11.983631862573814,
+    "R2_mean": 0.26347704978192465
+}
