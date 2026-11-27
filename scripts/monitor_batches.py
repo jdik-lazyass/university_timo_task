@@ -1,10 +1,8 @@
 from pathlib import Path
-
 import joblib
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-
 from sklearn.metrics import (
     mean_absolute_error,
     mean_squared_error,
@@ -402,7 +400,6 @@ def main():
     for path in batch_paths:
         batch_name = path.stem
 
-        print("\n" + "=" * 60)
         print(f"Обработка {batch_name}")
 
         metrics = evaluate_batch(
@@ -462,12 +459,10 @@ def main():
     create_quality_plot(metrics_df)
     create_psi_heatmap(psi_df)
 
-    print("\n" + "=" * 60)
-    print("МЕТРИКИ КАЧЕСТВА HGB")
+    print("Метрики качества HGB")
 
     print(metrics_df.to_string(index=False))
 
-    print("\n" + "=" * 60)
     print("Результаты PSI")
 
     print(psi_df.to_string(index=False))

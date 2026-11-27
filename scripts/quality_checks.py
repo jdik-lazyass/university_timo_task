@@ -444,10 +444,6 @@ def process_file(file_path):
 
 def main():
 
-    print("=" * 60)
-    print("ПРОВЕРКА КАЧЕСТВА ДАННЫХ")
-    print("=" * 60)
-
     batch_files = sorted(
         INCOMING_DIR.glob("batch_*.csv")
     )
@@ -478,10 +474,7 @@ def main():
         index=False,
         encoding="utf-8-sig"
     )
-
-    print("\n" + "=" * 60)
     print("сводные результаты")
-    print("=" * 60)
 
     print(summary.to_string(index=False))
 

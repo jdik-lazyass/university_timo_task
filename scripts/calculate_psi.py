@@ -1,9 +1,6 @@
-
 from pathlib import Path
-
 import numpy as np
 import pandas as pd
-
 
 BASE_PATH = Path("../data/processed/base.csv")
 INCOMING_DIR = Path("../data/incoming")

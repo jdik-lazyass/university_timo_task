@@ -22,7 +22,6 @@ def calculate_metrics(data, model):
         "R2": r2_score(y_true, y_pred),
     }
 
-
 def main():
     data = pd.read_csv(DATA_PATH)
 

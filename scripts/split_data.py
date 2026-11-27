@@ -2,9 +2,10 @@ from pathlib import Path
 
 import pandas as pd
 
-RAW_PATH = Path("../data/raw/dataset.csv")
-BASE_PATH = Path("../data/processed/base.csv")
-INCOMING_DIR = Path("../data/incoming")
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+RAW_PATH = PROJECT_ROOT / "data" / "raw" / "dataset.csv"
+BASE_PATH = PROJECT_ROOT / "data" / "processed" / "base.csv"
+INCOMING_DIR = PROJECT_ROOT / "data" / "incoming"
 
 DATE_COLUMN = "Year_of_Release"
 BASE_FRACTION = 0.6
