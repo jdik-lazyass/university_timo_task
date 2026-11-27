@@ -1,0 +1,37 @@
+Feature,Category,Mean_Prediction,Count
+Publisher,Electronic Arts,72.46977817169376,331
+Publisher,Ubisoft,68.5884694740687,228
+Publisher,Activision,68.3996895117074,211
+Publisher,Namco Bandai Games,67.40579466202881,152
+Publisher,Warner Bros. Interactive Entertainment,62.651524690945344,135
+Publisher,Take-Two Interactive,74.70262460800821,121
+Publisher,Nintendo,75.72210476477925,121
+Publisher,THQ,69.45054730500671,109
+Publisher,Sega,67.57708308906227,107
+Publisher,Sony Computer Entertainment,76.7414994266805,106
+Genre,Action,66.08788269767611,884
+Genre,Shooter,69.63313822581135,377
+Genre,Sports,69.11455411412301,353
+Genre,Role-Playing,73.27945315442497,302
+Genre,Misc,68.86694777779725,205
+Genre,Racing,66.42158312322842,187
+Genre,Fighting,67.91395537752099,154
+Genre,Adventure,67.14295390755024,139
+Genre,Platform,68.65138073826492,121
+Genre,Simulation,68.45815627076163,102
+Genre,Strategy,69.91258152967731,101
+Genre,Puzzle,71.46875703426991,51
+Rating,T,67.71463364046113,892
+Rating,M,70.67966684785269,776
+Rating,E,67.41168607409331,687
+Rating,E10+,67.32495293340284,551
+Developer,Ubisoft,69.14851225277252,62
+Developer,EA Sports,69.07239285404364,50
+Developer,Konami,72.68383813410682,42
+Developer,Ubisoft Montreal,70.87172616845046,42
+Developer,Capcom,70.33811412216373,41
+Developer,TT Games,66.38117632901472,41
+Developer,Electronic Arts,69.15905521628913,37
+Developer,Traveller's Tales,70.00769601509093,36
+Developer,Omega Force,69.15905521628913,35
+Developer,Codemasters,76.67185353972278,35

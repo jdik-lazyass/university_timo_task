@@ -1,0 +1,56 @@
+{
+    "total": 1672,
+    "checks": {
+        "Q1. Наличие обязательных столбцов": {
+            "violations": 0,
+            "blocking": true,
+            "message": "Все обязательные столбцы присутствуют"
+        },
+        "Q2. Заполнение Name": {
+            "violations": 0,
+            "blocking": true,
+            "message": "Пустые названия игр"
+        },
+        "Q3. Допустимость Platform": {
+            "violations": 0,
+            "blocking": true,
+            "message": "Пустые или неизвестные платформы"
+        },
+        "Q4. Диапазон Year_of_Release": {
+            "violations": 0,
+            "blocking": true,
+            "message": "Год должен находиться в диапазоне 1980–2026"
+        },
+        "Q5. Допустимость Genre": {
+            "violations": 0,
+            "blocking": true,
+            "message": "Пустые или неизвестные жанры"
+        },
+        "Q6. Допустимость Rating": {
+            "violations": 0,
+            "blocking": false,
+            "message": "Некорректные значения заменены на Unknown"
+        },
+        "Q7. Диапазон Critic_Score": {
+            "violations": 0,
+            "blocking": false,
+            "message": "Некорректные оценки заменены на пропуски"
+        },
+        "Q8. Пропуски Publisher": {
+            "violations": 0,
+            "blocking": false,
+            "message": "Доля пропусков: 0.3%; допустимо не более 60%"
+        },
+        "Q8. Пропуски Developer": {
+            "violations": 0,
+            "blocking": false,
+            "message": "Доля пропусков: 36.5%; допустимо не более 60%"
+        }
+    },
+    "warnings": [],
+    "valid": 1672,
+    "rejected": 0,
+    "rejection_share": 0.0,
+    "status": "OK",
+    "warnings_count": 0
+}

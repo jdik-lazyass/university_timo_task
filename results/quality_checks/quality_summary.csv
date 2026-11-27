@@ -1,0 +1,5 @@
+﻿Batch,Total,Valid,Rejected,Warnings,Status
+batch_01.csv,1672,1672,0,0,OK
+batch_02.csv,1672,1672,0,0,OK
+batch_03.csv,1672,1672,0,0,OK
+batch_04.csv,1672,1403,269,1,ERROR

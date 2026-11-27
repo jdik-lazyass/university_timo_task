@@ -1,0 +1,61 @@
+{
+    "total": 1672,
+    "checks": {
+        "Q1. Наличие обязательных столбцов": {
+            "violations": 0,
+            "blocking": true,
+            "message": "Все обязательные столбцы присутствуют"
+        },
+        "Q2. Заполнение Name": {
+            "violations": 1,
+            "blocking": true,
+            "message": "Пустые названия игр"
+        },
+        "Q3. Допустимость Platform": {
+            "violations": 1,
+            "blocking": true,
+            "message": "Пустые или неизвестные платформы"
+        },
+        "Q4. Диапазон Year_of_Release": {
+            "violations": 1,
+            "blocking": true,
+            "message": "Год должен находиться в диапазоне 1980–2026"
+        },
+        "Q5. Допустимость Genre": {
+            "violations": 1,
+            "blocking": true,
+            "message": "Пустые или неизвестные жанры"
+        },
+        "Q6. Допустимость Rating": {
+            "violations": 1,
+            "blocking": false,
+            "message": "Некорректные значения заменены на Unknown"
+        },
+        "Q7. Диапазон Critic_Score": {
+            "violations": 1,
+            "blocking": false,
+            "message": "Некорректные оценки заменены на пропуски"
+        },
+        "Q8. Пропуски Publisher": {
+            "violations": 1,
+            "blocking": false,
+            "message": "Доля пропусков: 65.0%; допустимо не более 60%"
+        },
+        "Q8. Пропуски Developer": {
+            "violations": 1,
+            "blocking": false,
+            "message": "Доля пропусков: 77.5%; допустимо не более 60%"
+        }
+    },
+    "warnings": [
+        "Обнаружены некорректные значения Rating",
+        "Обнаружены некорректные значения Critic_Score",
+        "Высокая доля пропусков в Publisher",
+        "Высокая доля пропусков в Developer"
+    ],
+    "valid": 1668,
+    "rejected": 4,
+    "rejection_share": 0.0023923444976076554,
+    "status": "ERROR",
+    "warnings_count": 4
+}
